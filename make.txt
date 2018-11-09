@@ -1,0 +1,2 @@
+sold: sold.c test.c
+	gcc sold.c test.c -pedantic -ansi  -Wall -Wextra -Wfloat-equal -O2
